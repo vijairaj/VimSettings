@@ -9,6 +9,13 @@ call vundle#begin(path)
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/taglist.vim'
+"GoInstallBinaries to install the required binaries.
+"set GOPATH to get the source and GOBIN to store compiled binaries (go env)
+Plugin 'fatih/vim-go'
+Plugin 'kien/ctrlp.vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+
 call vundle#end()            " required
 
 filetype plugin indent on    " required

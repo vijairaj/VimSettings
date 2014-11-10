@@ -6,5 +6,5 @@ VimSettings
     <pre>
     source $HOME\VimSettings\vundle.vim
     source $HOME\VimSettings\vimrc
-    source $HOME\VimsSttings\gvimrc
+    source $HOME\VimSettings\gvimrc
     </pre>
